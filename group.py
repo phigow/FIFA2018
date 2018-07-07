@@ -9,6 +9,7 @@ if __name__ == "__main__":
      #参数判断
     if len(sys.argv) != 2:
         print("清添加参数: en-英文 cn-中文")
+        exit()
     lang = sys.argv[1]
     if lang != "en" and lang != "cn":
         print("Invalid Parameter")
